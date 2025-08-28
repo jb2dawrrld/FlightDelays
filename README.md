@@ -1,5 +1,5 @@
 # Flight Delay Predictor
-## A machine learning model that predicts flight delays and cancelations using historical flight data
+### _A machine learning model that predicts flight delays and cancelations using historical flight data._
 
 # Overview
 Flight delays are a common problem in the aviation industry. Not only does it inconvenience passengers, but also affects airline operations. This project uses machine learning to predict flight delays and cancellations using historical flight data. It leverages data preprocessing, feature engineering, and classification models to identify flights likely to be delayed.
@@ -14,8 +14,8 @@ Flight delays are a common problem in the aviation industry. Not only does it in
 - **numpy**: Numerical operations
 
 ## Files
-- `FlightDelayNotebook.ipynb`: Main notebook for data analysis, feature engineering, model training, and evaluation. 
-- `flights.csv/flights.csv`: Main dataset containing flight records.
+- [`FlightDelayNotebook.ipynb`](https://github.com/jb2dawrrld/FlightDelays/blob/main/FlightDelayNotebook.ipynb): Main notebook for data analysis, feature engineering, model training, and evaluation. 
+- [`flights.csv`](https://www.kaggle.com/datasets/usdot/flight-delays?resource=download&select=airports.csv): Kaggle dataset containing flight records (2015).
 
 ## Workflow
 1. **Data Loading**: Loads flight data from `flights.csv`.
